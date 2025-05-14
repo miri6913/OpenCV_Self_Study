@@ -18,5 +18,8 @@
     <ClCompile Include="core_functionality.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="image_size.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
