@@ -1,0 +1,9 @@
+A simple color space reduction algorithm would consist of just passing through every pixel 
+of an image matrix and applying this formula. 
+It's worth noting that we do a divide and a multiplication operation. 
+These operations are bloody expensive for a system. 
+If possible it's worth avoiding them by using cheaper operations such as a few subtractions, 
+addition or in best case a simple assignment. 
+Furthermore, note that we only have a limited number of input values for the upper operation. 
+In case of the uchar system this is 256 to be exact.
+
